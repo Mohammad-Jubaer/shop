@@ -4,8 +4,8 @@ import Directory from "../../components/directory/directory.component";
 
 import "./homepage.styles.scss";
 
-const HomePage = props => {
-  console.log(props);
+const homePage = () => {
+ 
   return (
     <div className="homepage">
       <Directory />
@@ -13,4 +13,4 @@ const HomePage = props => {
   );
 };
 
-export default HomePage;
+export default homePage;
